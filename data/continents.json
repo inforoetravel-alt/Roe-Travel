@@ -1,0 +1,46 @@
+{
+  "continents": [
+    {
+      "slug": "europe",
+      "name": "Europe",
+      "blurb": "Compact distances, fast trains, and a mix of historic capitals and coastal towns.",
+      "bestTime": "April–June and September–October for mild weather and fewer crowds.",
+      "countries": ["belgium","denmark","finland","france","germany","italy","netherlands","norway","portugal","spain","sweden","switzerland","turkey","united-kingdom"]
+    },
+    {
+      "slug": "north-america",
+      "name": "North America",
+      "blurb": "Vast distances best covered by domestic flights, from Arctic Canada to sunbelt cities.",
+      "bestTime": "May–June and September–October avoid both summer crowds and winter cold.",
+      "countries": ["canada","united-states"]
+    },
+    {
+      "slug": "asia",
+      "name": "Asia",
+      "blurb": "Ancient heritage sites alongside some of the world's densest, fastest-moving cities.",
+      "bestTime": "March–May and September–November for mild temperatures across most of the region.",
+      "countries": ["china","hong-kong","japan","singapore"]
+    },
+    {
+      "slug": "middle-east",
+      "name": "Middle East",
+      "blurb": "Modern skylines and desert landscapes, with some of the highest luxury hotel density anywhere.",
+      "bestTime": "November–March, avoiding the intense summer heat.",
+      "countries": ["saudi-arabia","united-arab-emirates"]
+    },
+    {
+      "slug": "africa",
+      "name": "Africa",
+      "blurb": "Coastal capitals, ancient history, and safari gateways across a hugely varied continent.",
+      "bestTime": "Varies widely by region — check each country's dry season before booking.",
+      "countries": ["egypt","ghana","kenya","morocco","nigeria","south-africa"]
+    },
+    {
+      "slug": "oceania",
+      "name": "Oceania",
+      "blurb": "Harbourfront cities and beach towns, best reached with some flexibility on travel time.",
+      "bestTime": "March–May and September–November for mild weather nationwide.",
+      "countries": ["australia"]
+    }
+  ]
+}

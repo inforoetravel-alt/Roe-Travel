@@ -1,0 +1,314 @@
+{
+  "country": "United Arab Emirates",
+  "slug": "united-arab-emirates",
+  "intro": "United Arab Emirates covers Dubai, Abu Dhabi, Sharjah and more — a range of business hubs, historic centers, and leisure destinations. This guide organizes hotels by budget and by purpose across the country's most-visited cities.",
+  "heroImageAlt": "Dubai skyline at dusk",
+  "featuredCities": [
+    "Dubai",
+    "Abu Dhabi",
+    "Sharjah",
+    "Ras Al Khaimah"
+  ],
+  "topAttractions": [
+    "Burj Khalifa & Dubai Mall, Dubai",
+    "Sheikh Zayed Grand Mosque, Abu Dhabi",
+    "Louvre Abu Dhabi, Abu Dhabi",
+    "Dubai Marina & JBR Beach, Dubai",
+    "Jebel Jais mountain views, Ras Al Khaimah"
+  ],
+  "travelTips": [
+    "Book hotels in Dubai well ahead during major local events — rates rise quickly.",
+    "Most hotel rates shown include tax, though a small city or tourist tax may apply at checkout in some destinations.",
+    "Public transit covers most needs in Dubai; a car is more useful for reaching smaller towns or countryside.",
+    "Shoulder-season travel (spring and autumn) typically offers the best balance of weather and hotel rates."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a car in the United Arab Emirates?",
+      "a": "Dubai and other major cities are generally well served by public transit. A car is more useful for exploring outside the main cities."
+    },
+    {
+      "q": "What's the best time to visit the United Arab Emirates?",
+      "a": "Spring and autumn typically offer the mildest weather and better hotel availability than peak summer or winter."
+    },
+    {
+      "q": "Are hotel cancellation policies flexible?",
+      "a": "Most standard and luxury hotels offer free cancellation up to 24–48 hours before check-in; budget rates are cheaper but often non-refundable."
+    }
+  ],
+  "categories": {
+    "luxury": [
+      {
+        "name": "Dubai Grand Palace",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 5,
+        "price": 280,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Abu Dhabi Royal Suites",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 315,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      },
+      {
+        "name": "Sharjah Skyline Hotel",
+        "city": "Sharjah",
+        "area": "City Center",
+        "stars": 5,
+        "price": 350,
+        "amenities": [
+          "City view",
+          "Fitness center",
+          "Room service"
+        ]
+      },
+      {
+        "name": "The Ras Al Khaimah Regency",
+        "city": "Ras Al Khaimah",
+        "area": "City Center",
+        "stars": 5,
+        "price": 385,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      }
+    ],
+    "standard": [
+      {
+        "name": "Dubai Comfort Hotel",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Abu Dhabi City Inn",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 112,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      },
+      {
+        "name": "Sharjah Central Suites",
+        "city": "Sharjah",
+        "area": "City Center",
+        "stars": 3,
+        "price": 124,
+        "amenities": [
+          "Central location",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Ras Al Khaimah Garden Hotel",
+        "city": "Ras Al Khaimah",
+        "area": "City Center",
+        "stars": 4,
+        "price": 136,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      }
+    ],
+    "budget": [
+      {
+        "name": "Dubai Traveler Inn",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 2,
+        "price": 55,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Abu Dhabi Budget Hotel",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 63,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      },
+      {
+        "name": "Sharjah Value Lodge",
+        "city": "Sharjah",
+        "area": "City Center",
+        "stars": 2,
+        "price": 71,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Ras Al Khaimah Backpackers Inn",
+        "city": "Ras Al Khaimah",
+        "area": "City Center",
+        "stars": 3,
+        "price": 79,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "name": "Dubai Business Suites",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 4,
+        "price": 170,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      },
+      {
+        "name": "Abu Dhabi Executive Hotel",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 190,
+        "amenities": [
+          "Business center",
+          "Airport shuttle"
+        ]
+      },
+      {
+        "name": "Sharjah Corporate Inn",
+        "city": "Sharjah",
+        "area": "City Center",
+        "stars": 4,
+        "price": 210,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      }
+    ],
+    "family": [
+      {
+        "name": "Dubai Family Resort",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 3,
+        "price": 140,
+        "amenities": [
+          "Family rooms",
+          "Free breakfast"
+        ]
+      },
+      {
+        "name": "Abu Dhabi Family Suites",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 155,
+        "amenities": [
+          "Kids' pool",
+          "Connecting rooms"
+        ]
+      }
+    ],
+    "airportHotels": [
+      {
+        "name": "Dubai Airport Gateway Hotel",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 3,
+        "price": 90,
+        "amenities": [
+          "Free shuttle",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Abu Dhabi Transit Inn",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Soundproof rooms",
+          "Free shuttle"
+        ]
+      }
+    ],
+    "beachResorts": [
+      {
+        "name": "Dubai Beachfront Resort",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 5,
+        "price": 260,
+        "amenities": [
+          "Beachfront",
+          "Pool"
+        ]
+      },
+      {
+        "name": "Abu Dhabi Coastal Resort",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 290,
+        "amenities": [
+          "Private beach",
+          "Spa"
+        ]
+      }
+    ],
+    "romantic": [
+      {
+        "name": "Dubai Boutique Hotel",
+        "city": "Dubai",
+        "area": "City Center",
+        "stars": 4,
+        "price": 220,
+        "amenities": [
+          "Rooftop bar",
+          "Fireplace suites"
+        ]
+      },
+      {
+        "name": "Abu Dhabi Romantic Suites",
+        "city": "Abu Dhabi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 245,
+        "amenities": [
+          "Couples spa",
+          "Wine bar"
+        ]
+      }
+    ]
+  }
+}

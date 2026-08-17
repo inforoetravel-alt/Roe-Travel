@@ -1,0 +1,278 @@
+{
+  "country": "Kenya",
+  "slug": "kenya",
+  "intro": "Kenya covers Nairobi, Mombasa — a range of business hubs, historic centers, and leisure destinations. This guide organizes hotels by budget and by purpose across the country's most-visited cities.",
+  "heroImageAlt": "Nairobi skyline at dusk",
+  "featuredCities": [
+    "Nairobi",
+    "Mombasa"
+  ],
+  "topAttractions": [
+    "Maasai Mara National Reserve",
+    "Nairobi National Park",
+    "Diani Beach, Mombasa",
+    "Giraffe Centre, Nairobi",
+    "Fort Jesus, Mombasa"
+  ],
+  "travelTips": [
+    "Book hotels in Nairobi well ahead during major local events — rates rise quickly.",
+    "Most hotel rates shown include tax, though a small city or tourist tax may apply at checkout in some destinations.",
+    "Public transit covers most needs in Nairobi; a car is more useful for reaching smaller towns or countryside.",
+    "Shoulder-season travel (spring and autumn) typically offers the best balance of weather and hotel rates."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a car in Kenya?",
+      "a": "Nairobi and other major cities are generally well served by public transit. A car is more useful for exploring outside the main cities."
+    },
+    {
+      "q": "What's the best time to visit Kenya?",
+      "a": "Spring and autumn typically offer the mildest weather and better hotel availability than peak summer or winter."
+    },
+    {
+      "q": "Are hotel cancellation policies flexible?",
+      "a": "Most standard and luxury hotels offer free cancellation up to 24–48 hours before check-in; budget rates are cheaper but often non-refundable."
+    }
+  ],
+  "categories": {
+    "luxury": [
+      {
+        "name": "Nairobi Grand Palace",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 280,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Mombasa Royal Suites",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 5,
+        "price": 315,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      },
+      {
+        "name": "Nairobi Skyline Hotel",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 350,
+        "amenities": [
+          "City view",
+          "Fitness center",
+          "Room service"
+        ]
+      }
+    ],
+    "standard": [
+      {
+        "name": "Nairobi Comfort Hotel",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Mombasa City Inn",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 4,
+        "price": 112,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      },
+      {
+        "name": "Nairobi Central Suites",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 124,
+        "amenities": [
+          "Central location",
+          "Free Wi-Fi"
+        ]
+      }
+    ],
+    "budget": [
+      {
+        "name": "Nairobi Traveler Inn",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 2,
+        "price": 55,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Mombasa Budget Hotel",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 3,
+        "price": 63,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      },
+      {
+        "name": "Nairobi Value Lodge",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 2,
+        "price": 71,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "name": "Nairobi Business Suites",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 170,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      },
+      {
+        "name": "Mombasa Executive Hotel",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 4,
+        "price": 190,
+        "amenities": [
+          "Business center",
+          "Airport shuttle"
+        ]
+      },
+      {
+        "name": "Nairobi Corporate Inn",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 210,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      }
+    ],
+    "family": [
+      {
+        "name": "Nairobi Family Resort",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 140,
+        "amenities": [
+          "Family rooms",
+          "Free breakfast"
+        ]
+      },
+      {
+        "name": "Mombasa Family Suites",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 4,
+        "price": 155,
+        "amenities": [
+          "Kids' pool",
+          "Connecting rooms"
+        ]
+      }
+    ],
+    "airportHotels": [
+      {
+        "name": "Nairobi Airport Gateway Hotel",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 90,
+        "amenities": [
+          "Free shuttle",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Mombasa Transit Inn",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Soundproof rooms",
+          "Free shuttle"
+        ]
+      }
+    ],
+    "beachResorts": [
+      {
+        "name": "Nairobi Beachfront Resort",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 260,
+        "amenities": [
+          "Beachfront",
+          "Pool"
+        ]
+      },
+      {
+        "name": "Mombasa Coastal Resort",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 5,
+        "price": 290,
+        "amenities": [
+          "Private beach",
+          "Spa"
+        ]
+      }
+    ],
+    "romantic": [
+      {
+        "name": "Nairobi Boutique Hotel",
+        "city": "Nairobi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 220,
+        "amenities": [
+          "Rooftop bar",
+          "Fireplace suites"
+        ]
+      },
+      {
+        "name": "Mombasa Romantic Suites",
+        "city": "Mombasa",
+        "area": "City Center",
+        "stars": 5,
+        "price": 245,
+        "amenities": [
+          "Couples spa",
+          "Wine bar"
+        ]
+      }
+    ]
+  }
+}

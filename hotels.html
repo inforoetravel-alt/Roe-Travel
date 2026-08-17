@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotels — Roe Travel</title>
+<meta name="description" content="Compare hotels worldwide across every category — budget, business, family, and luxury — with clear pricing.">
+<link rel="canonical" href="https://roetravel.com/hotels.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hotels — Roe Travel">
+<meta property="og:description" content="Compare hotels worldwide across every category — budget, business, family, and luxury — with clear pricing.">
+<meta property="og:url" content="https://roetravel.com/hotels.html">
+<meta property="og:image" content="https://roetravel.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hotels — Roe Travel">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://roetravel.com/index.html"},{"@type":"ListItem","position":2,"name":"Hotels","item":"https://roetravel.com/hotels.html"}]}
+</script>
+<script>
+(function() {
+  var t = localStorage.getItem("roe-theme");
+  if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="flights.html">Flights</a>
+      <a href="hotels.html" class="active">Hotels</a>
+      <a href="destinations.html">Top Hotels</a>
+      <a href="destinations-by-continent.html">Destinations</a>
+      <a href="travel-guides.html">Travel Guides</a>
+      <a href="contact.html">Support</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      <a href="contact.html" class="btn btn-ghost">Get help</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Hotels</p>
+      <h1>Stays in Barcelona</h1>
+      <p>Fri, 4 Sep — Mon, 7 Sep · 1 room, 2 guests · Every category, from hostels to five-star</p>
+    </div>
+  </section>
+
+  <section style="padding-top:40px;">
+    <div class="container">
+
+      <div class="search-widget" style="transform:none; margin-bottom:32px;">
+        <div class="search-panel active" style="display:block;">
+          <form data-target="hotels.html">
+            <div class="search-grid">
+              <div class="field"><label for="h-dest">Destination</label><input id="h-dest" type="text" value="Barcelona, Spain"></div>
+              <div class="field"><label for="h-checkin">Check-in</label><input id="h-checkin" type="date" value="2026-09-04"></div>
+              <div class="field"><label for="h-checkout">Check-out</label><input id="h-checkout" type="date" value="2026-09-07"></div>
+              <div class="field"><label for="h-rooms">Rooms & guests</label><select id="h-rooms"><option>1 room, 2 guests</option><option>2 rooms, 4 guests</option><option>1 room, 1 guest</option></select></div>
+            </div>
+            <div class="search-submit-row">
+              <span></span>
+              <button type="submit" class="btn btn-amber">Update search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="chip-row" role="group" aria-label="Filter by category">
+        <button class="chip active">All categories</button>
+        <button class="chip">Budget</button>
+        <button class="chip">Business</button>
+        <button class="chip">Family</button>
+        <button class="chip">Boutique</button>
+        <button class="chip">Luxury</button>
+        <button class="chip">Beachfront</button>
+      </div>
+
+      <div class="results-layout">
+        <aside class="filter-panel">
+          <h4>Price per night</h4>
+          <div class="filter-group">
+            <input type="range" min="20" max="500" value="220">
+            <div style="display:flex; justify-content:space-between; font-size:12px; color:var(--slate);"><span>€20</span><span>€500</span></div>
+          </div>
+          <h4>Star rating</h4>
+          <div class="filter-group">
+            <label><input type="checkbox" checked> ★★★★★</label>
+            <label><input type="checkbox" checked> ★★★★</label>
+            <label><input type="checkbox" checked> ★★★</label>
+            <label><input type="checkbox"> ★★ and below</label>
+          </div>
+          <h4>Guest rating</h4>
+          <div class="filter-group">
+            <label><input type="checkbox" checked> Excellent (9+)</label>
+            <label><input type="checkbox" checked> Very good (8+)</label>
+            <label><input type="checkbox"> Good (7+)</label>
+          </div>
+          <h4>Amenities</h4>
+          <div class="filter-group">
+            <label><input type="checkbox" checked> Free cancellation</label>
+            <label><input type="checkbox"> Breakfast included</label>
+            <label><input type="checkbox"> Pool</label>
+            <label><input type="checkbox"> Pet friendly</label>
+          </div>
+          <button class="btn btn-outline btn-block">Apply filters</button>
+        </aside>
+
+        <div>
+          <p style="color:var(--slate); font-size:14px; margin-bottom:16px;">96 stays found · sorted by <strong style="color:var(--ink);">best value</strong></p>
+
+          <div class="hotel-card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="stars">★★★★☆</div>
+              <h4>Hotel Vell Port</h4>
+              <p class="loc">Barri Gòtic, Barcelona · 0.4 km from center</p>
+              <div class="amen"><span>Free cancellation</span><span>Breakfast included</span><span>Air conditioning</span></div>
+            </div>
+            <div class="price-col">
+              <div class="amt mono" style="font-size:20px; font-weight:700; color:var(--ink);">€142</div>
+              <span class="per" style="font-size:12px; color:var(--slate); display:block; margin-bottom:8px;">per night</span>
+              <a href="contact.html" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+
+          <div class="hotel-card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="stars">★★★☆☆</div>
+              <h4>Casa Eixample Studios</h4>
+              <p class="loc">Eixample, Barcelona · 1.1 km from center</p>
+              <div class="amen"><span>Free cancellation</span><span>Kitchenette</span><span>Family rooms</span></div>
+            </div>
+            <div class="price-col">
+              <div class="amt mono" style="font-size:20px; font-weight:700; color:var(--ink);">€89</div>
+              <span class="per" style="font-size:12px; color:var(--slate); display:block; margin-bottom:8px;">per night</span>
+              <a href="contact.html" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+
+          <div class="hotel-card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="stars">★★★★★</div>
+              <h4>Mar Blau Suites & Spa</h4>
+              <p class="loc">Barceloneta, Barcelona · Beachfront</p>
+              <div class="amen"><span>Pool</span><span>Spa</span><span>Breakfast included</span></div>
+            </div>
+            <div class="price-col">
+              <div class="amt mono" style="font-size:20px; font-weight:700; color:var(--ink);">€310</div>
+              <span class="per" style="font-size:12px; color:var(--slate); display:block; margin-bottom:8px;">per night</span>
+              <a href="contact.html" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cloud" style="margin-top:24px;">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Browse by category</p>
+        <h2>Every kind of stay, one search</h2>
+      </div>
+      <div style="text-align:center; margin:-8px 0 28px;">
+        <p class="eyebrow" style="margin-bottom:12px;">Full country guides</p>
+        <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; max-width:900px; margin:0 auto;">
+          <a href="countries/australia.html" class="chip">Australia</a>
+          <a href="countries/belgium.html" class="chip">Belgium</a>
+          <a href="countries/canada.html" class="chip">Canada</a>
+          <a href="countries/china.html" class="chip">China</a>
+          <a href="countries/denmark.html" class="chip">Denmark</a>
+          <a href="countries/egypt.html" class="chip">Egypt</a>
+          <a href="countries/finland.html" class="chip">Finland</a>
+          <a href="countries/france.html" class="chip">France</a>
+          <a href="countries/germany.html" class="chip">Germany</a>
+          <a href="countries/ghana.html" class="chip">Ghana</a>
+          <a href="countries/hong-kong.html" class="chip">Hong Kong</a>
+          <a href="countries/italy.html" class="chip">Italy</a>
+          <a href="countries/japan.html" class="chip">Japan</a>
+          <a href="countries/kenya.html" class="chip">Kenya</a>
+          <a href="countries/morocco.html" class="chip">Morocco</a>
+          <a href="countries/netherlands.html" class="chip">Netherlands</a>
+          <a href="countries/nigeria.html" class="chip">Nigeria</a>
+          <a href="countries/norway.html" class="chip">Norway</a>
+          <a href="countries/portugal.html" class="chip">Portugal</a>
+          <a href="countries/saudi-arabia.html" class="chip">Saudi Arabia</a>
+          <a href="countries/singapore.html" class="chip">Singapore</a>
+          <a href="countries/south-africa.html" class="chip">South Africa</a>
+          <a href="countries/spain.html" class="chip">Spain</a>
+          <a href="countries/sweden.html" class="chip">Sweden</a>
+          <a href="countries/switzerland.html" class="chip">Switzerland</a>
+          <a href="countries/turkey.html" class="chip">Turkey</a>
+          <a href="countries/united-arab-emirates.html" class="chip">United Arab Emirates</a>
+          <a href="countries/united-kingdom.html" class="chip">United Kingdom</a>
+          <a href="countries/united-states.html" class="chip">United States</a>
+        </div>
+      </div>
+      <div class="grid-4">
+        <div class="dest-card">
+          <div class="dest-img"><span class="badge">FROM €22</span></div>
+          <div class="dest-body"><h4>Budget & hostels</h4><p class="from">Clean, simple, well-located</p></div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-img"><span class="badge">FROM €95</span></div>
+          <div class="dest-body"><h4>Business hotels</h4><p class="from">Fast Wi-Fi, workspaces, central</p></div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-img"><span class="badge">FROM €110</span></div>
+          <div class="dest-body"><h4>Family stays</h4><p class="from">Connecting rooms, kitchens, pools</p></div>
+        </div>
+        <div class="dest-card">
+          <div class="dest-img"><span class="badge">FROM €260</span></div>
+          <div class="dest-body"><h4>Luxury & resorts</h4><p class="from">Spas, suites, five-star service</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+        <p style="margin-top:14px; font-size:14px; max-width:32ch;">Flights and hotels worldwide, compared honestly and booked simply.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="index.html">Home</a></li><li><a href="flights.html">Flights</a></li><li><a href="hotels.html">Hotels</a></li><li><a href="destinations.html">Top Hotels</a></li><li><a href="destinations-by-continent.html">Destinations</a></li><li><a href="travel-guides.html">Travel Guides</a></li></ul>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <ul><li><a href="contact.html">Contact us</a></li><li><a href="mailto:info.roetravel@gmail.com">info.roetravel@gmail.com</a></li><li><a href="contact.html#faq">FAQ</a></li></ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul><li><a href="#">About Roe Travel</a></li><li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Roe Travel. All rights reserved.</span>
+      <span>Prices shown in EUR unless stated otherwise.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flights — Roe Travel</title>
+<meta name="description" content="Compare flights worldwide with clear pricing and flexible filters.">
+<link rel="canonical" href="https://roetravel.com/flights.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Flights — Roe Travel">
+<meta property="og:description" content="Compare flights worldwide with clear pricing and flexible filters.">
+<meta property="og:url" content="https://roetravel.com/flights.html">
+<meta property="og:image" content="https://roetravel.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://roetravel.com/index.html"},{"@type":"ListItem","position":2,"name":"Flights","item":"https://roetravel.com/flights.html"}]}
+</script>
+<script>
+(function() {
+  var t = localStorage.getItem("roe-theme");
+  if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="flights.html" class="active">Flights</a>
+      <a href="hotels.html">Hotels</a>
+      <a href="destinations.html">Top Hotels</a>
+      <a href="destinations-by-continent.html">Destinations</a>
+      <a href="travel-guides.html">Travel Guides</a>
+      <a href="contact.html">Support</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      <a href="contact.html" class="btn btn-ghost">Get help</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Flights</p>
+      <h1>Brussels → Barcelona</h1>
+      <p>Fri, 4 Sep — Mon, 7 Sep · 1 passenger · Economy</p>
+    </div>
+  </section>
+
+  <section style="padding-top:40px;">
+    <div class="container">
+      <div class="search-widget" style="transform:none; margin-bottom:32px;">
+        <div class="search-panel active" style="display:block;">
+          <form data-target="flights.html">
+            <div class="search-grid">
+              <div class="field"><label for="f-from">From</label><input id="f-from" type="text" value="Brussels"></div>
+              <div class="field"><label for="f-to">To</label><input id="f-to" type="text" value="Barcelona"></div>
+              <div class="field"><label for="f-depart">Depart</label><input id="f-depart" type="date" value="2026-09-04"></div>
+              <div class="field"><label for="f-return">Return</label><input id="f-return" type="date" value="2026-09-07"></div>
+            </div>
+            <div class="search-submit-row"><span></span><button type="submit" class="btn btn-amber">Update search</button></div>
+          </form>
+        </div>
+      </div>
+
+      <div class="results-layout">
+        <aside class="filter-panel">
+          <h4>Stops</h4>
+          <div class="filter-group">
+            <label><input type="checkbox" checked> Nonstop</label>
+            <label><input type="checkbox" checked> 1 stop</label>
+            <label><input type="checkbox"> 2+ stops</label>
+          </div>
+          <h4>Price</h4>
+          <div class="filter-group">
+            <input type="range" min="30" max="600" value="180">
+            <div style="display:flex; justify-content:space-between; font-size:12px; color:var(--slate);"><span>€30</span><span>€600</span></div>
+          </div>
+          <h4>Departure time</h4>
+          <div class="filter-group">
+            <label><input type="checkbox" checked> Morning</label>
+            <label><input type="checkbox" checked> Afternoon</label>
+            <label><input type="checkbox"> Evening</label>
+          </div>
+          <button class="btn btn-outline btn-block">Apply filters</button>
+        </aside>
+
+        <div>
+          <p style="color:var(--slate); font-size:14px; margin-bottom:16px;">128 flights found · sorted by <strong style="color:var(--ink);">best value</strong></p>
+
+          <div class="hotel-card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="stars result-route">08:15 → 10:05</div>
+              <h4>Runway Air · Nonstop</h4>
+              <p class="loc">BRU → BCN · 1h 50m</p>
+              <div class="amen"><span>Free cancellation</span><span>Carry-on included</span></div>
+            </div>
+            <div class="price-col">
+              <div class="amt mono result-price" style="font-size:20px; font-weight:700; color:var(--ink);">€78</div>
+              <span class="per" style="font-size:12px; color:var(--slate); display:block; margin-bottom:8px;">per person</span>
+              <a href="contact.html" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+
+          <div class="hotel-card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="stars result-route">13:40 → 17:55</div>
+              <h4>NordJet · 1 stop</h4>
+              <p class="loc">BRU → BCN via CDG · 4h 15m</p>
+              <div class="amen"><span>Checked bag included</span></div>
+            </div>
+            <div class="price-col">
+              <div class="amt mono result-price" style="font-size:20px; font-weight:700; color:var(--ink);">€54</div>
+              <span class="per" style="font-size:12px; color:var(--slate); display:block; margin-bottom:8px;">per person</span>
+              <a href="contact.html" class="btn btn-primary">Select</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cloud">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Flights by country</p>
+        <h2>Where are you flying to?</h2>
+      </div>
+      <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; max-width:900px; margin:0 auto;">
+          <a href="flights.html?to=australia" class="chip">Australia</a>
+          <a href="flights.html?to=belgium" class="chip">Belgium</a>
+          <a href="flights.html?to=canada" class="chip">Canada</a>
+          <a href="flights.html?to=china" class="chip">China</a>
+          <a href="flights.html?to=denmark" class="chip">Denmark</a>
+          <a href="flights.html?to=egypt" class="chip">Egypt</a>
+          <a href="flights.html?to=finland" class="chip">Finland</a>
+          <a href="flights.html?to=france" class="chip">France</a>
+          <a href="flights.html?to=germany" class="chip">Germany</a>
+          <a href="flights.html?to=ghana" class="chip">Ghana</a>
+          <a href="flights.html?to=hong-kong" class="chip">Hong Kong</a>
+          <a href="flights.html?to=italy" class="chip">Italy</a>
+          <a href="flights.html?to=japan" class="chip">Japan</a>
+          <a href="flights.html?to=kenya" class="chip">Kenya</a>
+          <a href="flights.html?to=morocco" class="chip">Morocco</a>
+          <a href="flights.html?to=netherlands" class="chip">Netherlands</a>
+          <a href="flights.html?to=nigeria" class="chip">Nigeria</a>
+          <a href="flights.html?to=norway" class="chip">Norway</a>
+          <a href="flights.html?to=portugal" class="chip">Portugal</a>
+          <a href="flights.html?to=saudi-arabia" class="chip">Saudi Arabia</a>
+          <a href="flights.html?to=singapore" class="chip">Singapore</a>
+          <a href="flights.html?to=south-africa" class="chip">South Africa</a>
+          <a href="flights.html?to=spain" class="chip">Spain</a>
+          <a href="flights.html?to=sweden" class="chip">Sweden</a>
+          <a href="flights.html?to=switzerland" class="chip">Switzerland</a>
+          <a href="flights.html?to=turkey" class="chip">Turkey</a>
+          <a href="flights.html?to=united-arab-emirates" class="chip">United Arab Emirates</a>
+          <a href="flights.html?to=united-kingdom" class="chip">United Kingdom</a>
+          <a href="flights.html?to=united-states" class="chip">United States</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Cabin classes</p>
+        <h2>Economy, Business, or First</h2>
+      </div>
+      <div class="grid-3">
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Economy</h4><p class="from">Standard seating, checked-bag options, and the lowest fares on every route.</p><p class="price">From €47 <span>per person</span></p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Business Class</h4><p class="from">Extra legroom, priority boarding, lounge access on most long-haul routes.</p><p class="price">From €412 <span>per person</span></p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>First Class</h4><p class="from">Maximum comfort and privacy — available on select long-haul international routes.</p><p class="price">From €1,180 <span>per person</span></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cloud">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Popular airlines</p>
+        <h2>Airlines we compare</h2>
+      </div>
+      <div class="grid-3">
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Runway Air</h4><p class="from">Short and medium-haul, strong on-time performance across Europe.</p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>NordJet</h4><p class="from">Northern European hub carrier with reliable connections.</p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Atlas Wings</h4><p class="from">Long-haul specialist connecting six continents.</p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Pacific Crest Airlines</h4><p class="from">Trans-Pacific and Asia-Pacific regional routes.</p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Meridian Skyways</h4><p class="from">Middle East and Africa hub-and-spoke network.</p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Southern Cross Air</h4><p class="from">Australia, New Zealand, and Oceania routes.</p></div></div>
+      </div>
+      <p style="text-align:center; color:var(--slate); font-size:14px; margin-top:20px;">Airline reviews are coming soon as part of our Travel Guides section.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Flight deals</p>
+        <h2>Cheap flights worth a look</h2>
+      </div>
+      <div class="grid-3">
+        <div class="dest-card"><div class="dest-img"><span class="badge">DEAL</span></div><div class="dest-body"><h4>Brussels → Lisbon</h4><p class="from">Nonstop, Runway Air</p><p class="price">€42 <span>one-way</span></p></div></div>
+        <div class="dest-card"><div class="dest-img"><span class="badge">DEAL</span></div><div class="dest-body"><h4>Brussels → Istanbul</h4><p class="from">1 stop, Atlas Wings</p><p class="price">€68 <span>one-way</span></p></div></div>
+        <div class="dest-card"><div class="dest-img"><span class="badge">DEAL</span></div><div class="dest-body"><h4>Brussels → Dubai</h4><p class="from">Nonstop, Meridian Skyways</p><p class="price">€312 <span>round trip</span></p></div></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+        <p style="margin-top:14px; font-size:14px; max-width:32ch;">Flights and hotels worldwide, compared honestly and booked simply.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="index.html">Home</a></li><li><a href="flights.html">Flights</a></li><li><a href="hotels.html">Hotels</a></li><li><a href="destinations.html">Top Hotels</a></li><li><a href="destinations-by-continent.html">Destinations</a></li><li><a href="travel-guides.html">Travel Guides</a></li></ul>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <ul><li><a href="contact.html">Contact us</a></li><li><a href="mailto:info.roetravel@gmail.com">info.roetravel@gmail.com</a></li><li><a href="contact.html#faq">FAQ</a></li></ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul><li><a href="#">About Roe Travel</a></li><li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Roe Travel. All rights reserved.</span>
+      <span>Prices shown in EUR unless stated otherwise.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+(async function prefillDestinationFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  const to = params.get("to");
+  if (!to) return;
+  try {
+    const res = await fetch(`data/countries/${to}.json`);
+    if (!res.ok) return;
+    const data = await res.json();
+    const toField = document.getElementById("f-to");
+    if (toField) toField.value = data.country;
+    const heroH1 = document.querySelector(".page-hero h1");
+    if (heroH1) heroH1.textContent = `Brussels → ${data.country}`;
+  } catch (err) { /* silently ignore — keep default example route */ }
+})();
+</script>
+</body>
+</html>

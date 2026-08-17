@@ -1,0 +1,279 @@
+{
+  "country": "Norway",
+  "slug": "norway",
+  "intro": "Norway covers Oslo, Bergen, Tromsø — a range of business hubs, historic centers, and leisure destinations. This guide organizes hotels by budget and by purpose across the country's most-visited cities.",
+  "heroImageAlt": "Oslo skyline at dusk",
+  "featuredCities": [
+    "Oslo",
+    "Bergen",
+    "Tromsø"
+  ],
+  "topAttractions": [
+    "Vigeland Sculpture Park, Oslo",
+    "Bryggen wharf, Bergen",
+    "Northern Lights, Tromsø",
+    "Fjord cruises, Bergen",
+    "Holmenkollen Ski Jump, Oslo"
+  ],
+  "travelTips": [
+    "Book hotels in Oslo well ahead during major local events — rates rise quickly.",
+    "Most hotel rates shown include tax, though a small city or tourist tax may apply at checkout in some destinations.",
+    "Public transit covers most needs in Oslo; a car is more useful for reaching smaller towns or countryside.",
+    "Shoulder-season travel (spring and autumn) typically offers the best balance of weather and hotel rates."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a car in Norway?",
+      "a": "Oslo and other major cities are generally well served by public transit. A car is more useful for exploring outside the main cities."
+    },
+    {
+      "q": "What's the best time to visit Norway?",
+      "a": "Spring and autumn typically offer the mildest weather and better hotel availability than peak summer or winter."
+    },
+    {
+      "q": "Are hotel cancellation policies flexible?",
+      "a": "Most standard and luxury hotels offer free cancellation up to 24–48 hours before check-in; budget rates are cheaper but often non-refundable."
+    }
+  ],
+  "categories": {
+    "luxury": [
+      {
+        "name": "Oslo Grand Palace",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 5,
+        "price": 280,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Bergen Royal Suites",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 5,
+        "price": 315,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      },
+      {
+        "name": "Tromsø Skyline Hotel",
+        "city": "Tromsø",
+        "area": "City Center",
+        "stars": 5,
+        "price": 350,
+        "amenities": [
+          "City view",
+          "Fitness center",
+          "Room service"
+        ]
+      }
+    ],
+    "standard": [
+      {
+        "name": "Oslo Comfort Hotel",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Bergen City Inn",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 4,
+        "price": 112,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      },
+      {
+        "name": "Tromsø Central Suites",
+        "city": "Tromsø",
+        "area": "City Center",
+        "stars": 3,
+        "price": 124,
+        "amenities": [
+          "Central location",
+          "Free Wi-Fi"
+        ]
+      }
+    ],
+    "budget": [
+      {
+        "name": "Oslo Traveler Inn",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 2,
+        "price": 55,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Bergen Budget Hotel",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 3,
+        "price": 63,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      },
+      {
+        "name": "Tromsø Value Lodge",
+        "city": "Tromsø",
+        "area": "City Center",
+        "stars": 2,
+        "price": 71,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "name": "Oslo Business Suites",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 4,
+        "price": 170,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      },
+      {
+        "name": "Bergen Executive Hotel",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 4,
+        "price": 190,
+        "amenities": [
+          "Business center",
+          "Airport shuttle"
+        ]
+      },
+      {
+        "name": "Tromsø Corporate Inn",
+        "city": "Tromsø",
+        "area": "City Center",
+        "stars": 4,
+        "price": 210,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      }
+    ],
+    "family": [
+      {
+        "name": "Oslo Family Resort",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 3,
+        "price": 140,
+        "amenities": [
+          "Family rooms",
+          "Free breakfast"
+        ]
+      },
+      {
+        "name": "Bergen Family Suites",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 4,
+        "price": 155,
+        "amenities": [
+          "Kids' pool",
+          "Connecting rooms"
+        ]
+      }
+    ],
+    "airportHotels": [
+      {
+        "name": "Oslo Airport Gateway Hotel",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 3,
+        "price": 90,
+        "amenities": [
+          "Free shuttle",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Bergen Transit Inn",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Soundproof rooms",
+          "Free shuttle"
+        ]
+      }
+    ],
+    "beachResorts": [
+      {
+        "name": "Oslo Beachfront Resort",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 5,
+        "price": 260,
+        "amenities": [
+          "Beachfront",
+          "Pool"
+        ]
+      },
+      {
+        "name": "Bergen Coastal Resort",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 5,
+        "price": 290,
+        "amenities": [
+          "Private beach",
+          "Spa"
+        ]
+      }
+    ],
+    "romantic": [
+      {
+        "name": "Oslo Boutique Hotel",
+        "city": "Oslo",
+        "area": "City Center",
+        "stars": 4,
+        "price": 220,
+        "amenities": [
+          "Rooftop bar",
+          "Fireplace suites"
+        ]
+      },
+      {
+        "name": "Bergen Romantic Suites",
+        "city": "Bergen",
+        "area": "City Center",
+        "stars": 5,
+        "price": 245,
+        "amenities": [
+          "Couples spa",
+          "Wine bar"
+        ]
+      }
+    ]
+  }
+}

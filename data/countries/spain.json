@@ -1,0 +1,340 @@
+{
+  "country": "Spain",
+  "slug": "spain",
+  "intro": "Spain covers Barcelona, Madrid, Seville and more — a range of business hubs, historic centers, and leisure destinations. This guide organizes hotels by budget and by purpose across the country's most-visited cities.",
+  "heroImageAlt": "Barcelona skyline at dusk",
+  "featuredCities": [
+    "Barcelona",
+    "Madrid",
+    "Seville",
+    "Valencia",
+    "Granada",
+    "Malaga",
+    "Bilbao"
+  ],
+  "topAttractions": [
+    "Sagrada Familia & Park Güell, Barcelona",
+    "Prado Museum & Royal Palace, Madrid",
+    "Alhambra, Granada",
+    "Plaza de España, Seville",
+    "City of Arts and Sciences, Valencia"
+  ],
+  "travelTips": [
+    "Book hotels in Barcelona well ahead during major local events — rates rise quickly.",
+    "Most hotel rates shown include tax, though a small city or tourist tax may apply at checkout in some destinations.",
+    "Public transit covers most needs in Barcelona; a car is more useful for reaching smaller towns or countryside.",
+    "Shoulder-season travel (spring and autumn) typically offers the best balance of weather and hotel rates."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a car in Spain?",
+      "a": "Barcelona and other major cities are generally well served by public transit. A car is more useful for exploring outside the main cities."
+    },
+    {
+      "q": "What's the best time to visit Spain?",
+      "a": "Spring and autumn typically offer the mildest weather and better hotel availability than peak summer or winter."
+    },
+    {
+      "q": "Are hotel cancellation policies flexible?",
+      "a": "Most standard and luxury hotels offer free cancellation up to 24–48 hours before check-in; budget rates are cheaper but often non-refundable."
+    }
+  ],
+  "categories": {
+    "luxury": [
+      {
+        "name": "Barcelona Grand Palace",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 5,
+        "price": 280,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Madrid Royal Suites",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 5,
+        "price": 315,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      },
+      {
+        "name": "Seville Skyline Hotel",
+        "city": "Seville",
+        "area": "City Center",
+        "stars": 5,
+        "price": 350,
+        "amenities": [
+          "City view",
+          "Fitness center",
+          "Room service"
+        ]
+      },
+      {
+        "name": "The Valencia Regency",
+        "city": "Valencia",
+        "area": "City Center",
+        "stars": 5,
+        "price": 385,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Granada Heritage Grand",
+        "city": "Granada",
+        "area": "City Center",
+        "stars": 5,
+        "price": 420,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      }
+    ],
+    "standard": [
+      {
+        "name": "Barcelona Comfort Hotel",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Madrid City Inn",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 4,
+        "price": 112,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      },
+      {
+        "name": "Seville Central Suites",
+        "city": "Seville",
+        "area": "City Center",
+        "stars": 3,
+        "price": 124,
+        "amenities": [
+          "Central location",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Valencia Garden Hotel",
+        "city": "Valencia",
+        "area": "City Center",
+        "stars": 4,
+        "price": 136,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Granada Plaza Inn",
+        "city": "Granada",
+        "area": "City Center",
+        "stars": 3,
+        "price": 148,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      }
+    ],
+    "budget": [
+      {
+        "name": "Barcelona Traveler Inn",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 2,
+        "price": 55,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Madrid Budget Hotel",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 3,
+        "price": 63,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      },
+      {
+        "name": "Seville Value Lodge",
+        "city": "Seville",
+        "area": "City Center",
+        "stars": 2,
+        "price": 71,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Valencia Backpackers Inn",
+        "city": "Valencia",
+        "area": "City Center",
+        "stars": 3,
+        "price": 79,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "name": "Barcelona Business Suites",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 4,
+        "price": 170,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      },
+      {
+        "name": "Madrid Executive Hotel",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 4,
+        "price": 190,
+        "amenities": [
+          "Business center",
+          "Airport shuttle"
+        ]
+      },
+      {
+        "name": "Seville Corporate Inn",
+        "city": "Seville",
+        "area": "City Center",
+        "stars": 4,
+        "price": 210,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      }
+    ],
+    "family": [
+      {
+        "name": "Barcelona Family Resort",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 3,
+        "price": 140,
+        "amenities": [
+          "Family rooms",
+          "Free breakfast"
+        ]
+      },
+      {
+        "name": "Madrid Family Suites",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 4,
+        "price": 155,
+        "amenities": [
+          "Kids' pool",
+          "Connecting rooms"
+        ]
+      }
+    ],
+    "airportHotels": [
+      {
+        "name": "Barcelona Airport Gateway Hotel",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 3,
+        "price": 90,
+        "amenities": [
+          "Free shuttle",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Madrid Transit Inn",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Soundproof rooms",
+          "Free shuttle"
+        ]
+      }
+    ],
+    "beachResorts": [
+      {
+        "name": "Barcelona Beachfront Resort",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 5,
+        "price": 260,
+        "amenities": [
+          "Beachfront",
+          "Pool"
+        ]
+      },
+      {
+        "name": "Madrid Coastal Resort",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 5,
+        "price": 290,
+        "amenities": [
+          "Private beach",
+          "Spa"
+        ]
+      }
+    ],
+    "romantic": [
+      {
+        "name": "Barcelona Boutique Hotel",
+        "city": "Barcelona",
+        "area": "City Center",
+        "stars": 4,
+        "price": 220,
+        "amenities": [
+          "Rooftop bar",
+          "Fireplace suites"
+        ]
+      },
+      {
+        "name": "Madrid Romantic Suites",
+        "city": "Madrid",
+        "area": "City Center",
+        "stars": 5,
+        "price": 245,
+        "amenities": [
+          "Couples spa",
+          "Wine bar"
+        ]
+      }
+    ]
+  }
+}

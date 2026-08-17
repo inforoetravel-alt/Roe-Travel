@@ -1,0 +1,338 @@
+{
+  "country": "Switzerland",
+  "slug": "switzerland",
+  "intro": "Switzerland covers Zurich, Geneva, Lucerne and more — a range of business hubs, historic centers, and leisure destinations. This guide organizes hotels by budget and by purpose across the country's most-visited cities.",
+  "heroImageAlt": "Zurich skyline at dusk",
+  "featuredCities": [
+    "Zurich",
+    "Geneva",
+    "Lucerne",
+    "Bern",
+    "Interlaken"
+  ],
+  "topAttractions": [
+    "Lake Zurich & Old Town, Zurich",
+    "Jet d'Eau, Geneva",
+    "Chapel Bridge, Lucerne",
+    "Jungfraujoch, near Interlaken",
+    "Bern Old City (UNESCO), Bern"
+  ],
+  "travelTips": [
+    "Book hotels in Zurich well ahead during major local events — rates rise quickly.",
+    "Most hotel rates shown include tax, though a small city or tourist tax may apply at checkout in some destinations.",
+    "Public transit covers most needs in Zurich; a car is more useful for reaching smaller towns or countryside.",
+    "Shoulder-season travel (spring and autumn) typically offers the best balance of weather and hotel rates."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a car in Switzerland?",
+      "a": "Zurich and other major cities are generally well served by public transit. A car is more useful for exploring outside the main cities."
+    },
+    {
+      "q": "What's the best time to visit Switzerland?",
+      "a": "Spring and autumn typically offer the mildest weather and better hotel availability than peak summer or winter."
+    },
+    {
+      "q": "Are hotel cancellation policies flexible?",
+      "a": "Most standard and luxury hotels offer free cancellation up to 24–48 hours before check-in; budget rates are cheaper but often non-refundable."
+    }
+  ],
+  "categories": {
+    "luxury": [
+      {
+        "name": "Zurich Grand Palace",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 5,
+        "price": 280,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Geneva Royal Suites",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 5,
+        "price": 315,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      },
+      {
+        "name": "Lucerne Skyline Hotel",
+        "city": "Lucerne",
+        "area": "City Center",
+        "stars": 5,
+        "price": 350,
+        "amenities": [
+          "City view",
+          "Fitness center",
+          "Room service"
+        ]
+      },
+      {
+        "name": "The Bern Regency",
+        "city": "Bern",
+        "area": "City Center",
+        "stars": 5,
+        "price": 385,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Interlaken Heritage Grand",
+        "city": "Interlaken",
+        "area": "City Center",
+        "stars": 5,
+        "price": 420,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      }
+    ],
+    "standard": [
+      {
+        "name": "Zurich Comfort Hotel",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Geneva City Inn",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 4,
+        "price": 112,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      },
+      {
+        "name": "Lucerne Central Suites",
+        "city": "Lucerne",
+        "area": "City Center",
+        "stars": 3,
+        "price": 124,
+        "amenities": [
+          "Central location",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Bern Garden Hotel",
+        "city": "Bern",
+        "area": "City Center",
+        "stars": 4,
+        "price": 136,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Interlaken Plaza Inn",
+        "city": "Interlaken",
+        "area": "City Center",
+        "stars": 3,
+        "price": 148,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      }
+    ],
+    "budget": [
+      {
+        "name": "Zurich Traveler Inn",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 2,
+        "price": 55,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Geneva Budget Hotel",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 3,
+        "price": 63,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      },
+      {
+        "name": "Lucerne Value Lodge",
+        "city": "Lucerne",
+        "area": "City Center",
+        "stars": 2,
+        "price": 71,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Bern Backpackers Inn",
+        "city": "Bern",
+        "area": "City Center",
+        "stars": 3,
+        "price": 79,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "name": "Zurich Business Suites",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 4,
+        "price": 170,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      },
+      {
+        "name": "Geneva Executive Hotel",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 4,
+        "price": 190,
+        "amenities": [
+          "Business center",
+          "Airport shuttle"
+        ]
+      },
+      {
+        "name": "Lucerne Corporate Inn",
+        "city": "Lucerne",
+        "area": "City Center",
+        "stars": 4,
+        "price": 210,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      }
+    ],
+    "family": [
+      {
+        "name": "Zurich Family Resort",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 3,
+        "price": 140,
+        "amenities": [
+          "Family rooms",
+          "Free breakfast"
+        ]
+      },
+      {
+        "name": "Geneva Family Suites",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 4,
+        "price": 155,
+        "amenities": [
+          "Kids' pool",
+          "Connecting rooms"
+        ]
+      }
+    ],
+    "airportHotels": [
+      {
+        "name": "Zurich Airport Gateway Hotel",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 3,
+        "price": 90,
+        "amenities": [
+          "Free shuttle",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Geneva Transit Inn",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Soundproof rooms",
+          "Free shuttle"
+        ]
+      }
+    ],
+    "beachResorts": [
+      {
+        "name": "Zurich Beachfront Resort",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 5,
+        "price": 260,
+        "amenities": [
+          "Beachfront",
+          "Pool"
+        ]
+      },
+      {
+        "name": "Geneva Coastal Resort",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 5,
+        "price": 290,
+        "amenities": [
+          "Private beach",
+          "Spa"
+        ]
+      }
+    ],
+    "romantic": [
+      {
+        "name": "Zurich Boutique Hotel",
+        "city": "Zurich",
+        "area": "City Center",
+        "stars": 4,
+        "price": 220,
+        "amenities": [
+          "Rooftop bar",
+          "Fireplace suites"
+        ]
+      },
+      {
+        "name": "Geneva Romantic Suites",
+        "city": "Geneva",
+        "area": "City Center",
+        "stars": 5,
+        "price": 245,
+        "amenities": [
+          "Couples spa",
+          "Wine bar"
+        ]
+      }
+    ]
+  }
+}

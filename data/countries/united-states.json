@@ -1,0 +1,71 @@
+{
+  "country": "United States",
+  "slug": "united-states",
+  "intro": "From coast to coast, the United States covers every kind of trip — Broadway nights in New York, desert nightlife in Las Vegas, beach afternoons in Miami, and business towers in Chicago. This guide organizes hotels by budget and by purpose, so you can filter down to exactly what your trip needs.",
+  "heroImageAlt": "New York City skyline at dusk",
+  "featuredCities": ["New York", "Los Angeles", "Las Vegas", "Miami", "Chicago", "Orlando", "San Francisco", "Boston", "Washington DC", "Seattle"],
+  "topAttractions": [
+    "Statue of Liberty & Ellis Island, New York",
+    "Grand Canyon National Park, Arizona",
+    "The Las Vegas Strip, Nevada",
+    "Golden Gate Bridge, San Francisco",
+    "Walt Disney World, Orlando"
+  ],
+  "travelTips": [
+    "Book Las Vegas and Orlando hotels well ahead of school holidays — rates roughly double.",
+    "Most US hotels quote room rates before tax; expect 10–17% added at checkout depending on the city.",
+    "Airport hotels near JFK, LAX, and O'Hare are a reliable option for early departures or long layovers.",
+    "Tipping housekeeping ($2–5/night) is customary but optional."
+  ],
+  "faq": [
+    {"q": "Do I need a car to get around US cities?", "a": "In New York, Chicago, Boston, and Washington DC, public transit and walking cover most needs. In Los Angeles, Orlando, and Las Vegas, a rental car or rideshare is far more practical."},
+    {"q": "What's the best time to visit the United States?", "a": "April–June and September–October offer mild weather and lower hotel rates in most regions, avoiding both summer crowds and winter storms in the north."},
+    {"q": "Are hotel cancellation policies flexible?", "a": "Most standard and luxury US hotels offer free cancellation up to 24–48 hours before check-in; budget and non-refundable rates are cheaper but lock in the booking immediately."}
+  ],
+  "categories": {
+    "luxury": [
+      {"name": "Midtown Skyline Hotel", "city": "New York", "area": "Midtown Manhattan", "stars": 5, "price": 385, "amenities": ["Spa", "Rooftop bar", "Concierge"]},
+      {"name": "Sunset Boulevard Suites", "city": "Los Angeles", "area": "West Hollywood", "stars": 5, "price": 340, "amenities": ["Pool", "Valet parking", "Fine dining"]},
+      {"name": "The Strip Royal Resort", "city": "Las Vegas", "area": "The Strip", "stars": 5, "price": 298, "amenities": ["Casino", "Pool", "Spa"]},
+      {"name": "South Beach Ocean Hotel", "city": "Miami", "area": "South Beach", "stars": 5, "price": 356, "amenities": ["Private beach", "Spa", "Rooftop pool"]},
+      {"name": "Riverwalk Loop Grand", "city": "Chicago", "area": "The Loop", "stars": 5, "price": 312, "amenities": ["River view", "Spa", "Fine dining"]}
+    ],
+    "standard": [
+      {"name": "Harbor View Comfort Hotel", "city": "Boston", "area": "Seaport", "stars": 4, "price": 168, "amenities": ["Free breakfast", "Gym", "Business center"]},
+      {"name": "Capitol Hill Inn", "city": "Washington DC", "area": "Capitol Hill", "stars": 4, "price": 154, "amenities": ["Free Wi-Fi", "Breakfast included"]},
+      {"name": "Pike Place Comfort Suites", "city": "Seattle", "area": "Downtown", "stars": 4, "price": 148, "amenities": ["Free breakfast", "Pet friendly"]},
+      {"name": "International Drive Hotel", "city": "Orlando", "area": "International Drive", "stars": 3, "price": 112, "amenities": ["Pool", "Family rooms"]},
+      {"name": "Union Square Comfort Hotel", "city": "San Francisco", "area": "Union Square", "stars": 4, "price": 176, "amenities": ["Free Wi-Fi", "Gym"]}
+    ],
+    "budget": [
+      {"name": "Queens Traveler Inn", "city": "New York", "area": "Long Island City", "stars": 3, "price": 89, "amenities": ["Free Wi-Fi", "24-hour desk"]},
+      {"name": "Downtown Value Hotel", "city": "Chicago", "area": "West Loop", "stars": 3, "price": 78, "amenities": ["Free Wi-Fi", "Parking"]},
+      {"name": "Fremont Budget Inn", "city": "Las Vegas", "area": "Fremont Street", "stars": 3, "price": 62, "amenities": ["24-hour desk", "Near casinos"]},
+      {"name": "Airport Gateway Lodge", "city": "Miami", "area": "Near MIA Airport", "stars": 3, "price": 74, "amenities": ["Airport shuttle", "Free parking"]},
+      {"name": "Coastal Traveler Motel", "city": "Los Angeles", "area": "Santa Monica", "stars": 2, "price": 68, "amenities": ["Free Wi-Fi", "Near beach"]}
+    ],
+    "business": [
+      {"name": "Financial District Executive Hotel", "city": "New York", "area": "Financial District", "stars": 4, "price": 210, "amenities": ["Meeting rooms", "Fast Wi-Fi", "Business center"]},
+      {"name": "Loop Corporate Suites", "city": "Chicago", "area": "The Loop", "stars": 4, "price": 188, "amenities": ["Meeting rooms", "Airport shuttle"]},
+      {"name": "K Street Business Hotel", "city": "Washington DC", "area": "K Street", "stars": 4, "price": 172, "amenities": ["Meeting rooms", "Fast Wi-Fi"]}
+    ],
+    "family": [
+      {"name": "Magic Kingdom Family Resort", "city": "Orlando", "area": "Near Disney World", "stars": 4, "price": 158, "amenities": ["Kids' pool", "Family suites", "Free breakfast"]},
+      {"name": "Golden Gate Family Suites", "city": "San Francisco", "area": "Fisherman's Wharf", "stars": 4, "price": 172, "amenities": ["Connecting rooms", "Kitchenette"]},
+      {"name": "Downtown Family Comfort Inn", "city": "Seattle", "area": "South Lake Union", "stars": 3, "price": 134, "amenities": ["Family rooms", "Pool"]}
+    ],
+    "airportHotels": [
+      {"name": "JFK Gateway Hotel", "city": "New York", "area": "Near JFK Airport", "stars": 3, "price": 118, "amenities": ["Free shuttle", "24-hour desk"]},
+      {"name": "LAX Transit Suites", "city": "Los Angeles", "area": "Near LAX Airport", "stars": 3, "price": 108, "amenities": ["Free shuttle", "Soundproof rooms"]},
+      {"name": "O'Hare Layover Inn", "city": "Chicago", "area": "Near O'Hare Airport", "stars": 3, "price": 96, "amenities": ["Free shuttle", "24-hour desk"]}
+    ],
+    "beachResorts": [
+      {"name": "South Beach Ocean Hotel", "city": "Miami", "area": "South Beach", "stars": 5, "price": 356, "amenities": ["Private beach", "Spa"]},
+      {"name": "Santa Monica Pier Resort", "city": "Los Angeles", "area": "Santa Monica", "stars": 4, "price": 224, "amenities": ["Beachfront", "Pool"]}
+    ],
+    "romantic": [
+      {"name": "French Quarter Boutique Hotel", "city": "New York", "area": "Greenwich Village", "stars": 4, "price": 264, "amenities": ["Rooftop bar", "Fireplace suites"]},
+      {"name": "Napa View Romantic Inn", "city": "San Francisco", "area": "Union Square", "stars": 4, "price": 238, "amenities": ["Wine bar", "Couples spa"]}
+    ]
+  }
+}

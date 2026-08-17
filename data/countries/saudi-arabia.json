@@ -1,0 +1,314 @@
+{
+  "country": "Saudi Arabia",
+  "slug": "saudi-arabia",
+  "intro": "Saudi Arabia covers Riyadh, Jeddah, Mecca and more — a range of business hubs, historic centers, and leisure destinations. This guide organizes hotels by budget and by purpose across the country's most-visited cities.",
+  "heroImageAlt": "Riyadh skyline at dusk",
+  "featuredCities": [
+    "Riyadh",
+    "Jeddah",
+    "Mecca",
+    "Medina"
+  ],
+  "topAttractions": [
+    "Kingdom Centre Tower, Riyadh",
+    "Al-Balad Historic District, Jeddah",
+    "Masjid al-Haram, Mecca",
+    "Prophet's Mosque, Medina",
+    "Red Sea coastline, Jeddah"
+  ],
+  "travelTips": [
+    "Book hotels in Riyadh well ahead during major local events — rates rise quickly.",
+    "Most hotel rates shown include tax, though a small city or tourist tax may apply at checkout in some destinations.",
+    "Public transit covers most needs in Riyadh; a car is more useful for reaching smaller towns or countryside.",
+    "Shoulder-season travel (spring and autumn) typically offers the best balance of weather and hotel rates."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a car in Saudi Arabia?",
+      "a": "Riyadh and other major cities are generally well served by public transit. A car is more useful for exploring outside the main cities."
+    },
+    {
+      "q": "What's the best time to visit Saudi Arabia?",
+      "a": "Spring and autumn typically offer the mildest weather and better hotel availability than peak summer or winter."
+    },
+    {
+      "q": "Are hotel cancellation policies flexible?",
+      "a": "Most standard and luxury hotels offer free cancellation up to 24–48 hours before check-in; budget rates are cheaper but often non-refundable."
+    }
+  ],
+  "categories": {
+    "luxury": [
+      {
+        "name": "Riyadh Grand Palace",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 5,
+        "price": 280,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Jeddah Royal Suites",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 5,
+        "price": 315,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      },
+      {
+        "name": "Mecca Skyline Hotel",
+        "city": "Mecca",
+        "area": "City Center",
+        "stars": 5,
+        "price": 350,
+        "amenities": [
+          "City view",
+          "Fitness center",
+          "Room service"
+        ]
+      },
+      {
+        "name": "The Medina Regency",
+        "city": "Medina",
+        "area": "City Center",
+        "stars": 5,
+        "price": 385,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      }
+    ],
+    "standard": [
+      {
+        "name": "Riyadh Comfort Hotel",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Jeddah City Inn",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 4,
+        "price": 112,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      },
+      {
+        "name": "Mecca Central Suites",
+        "city": "Mecca",
+        "area": "City Center",
+        "stars": 3,
+        "price": 124,
+        "amenities": [
+          "Central location",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Medina Garden Hotel",
+        "city": "Medina",
+        "area": "City Center",
+        "stars": 4,
+        "price": 136,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      }
+    ],
+    "budget": [
+      {
+        "name": "Riyadh Traveler Inn",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 2,
+        "price": 55,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Jeddah Budget Hotel",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 3,
+        "price": 63,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      },
+      {
+        "name": "Mecca Value Lodge",
+        "city": "Mecca",
+        "area": "City Center",
+        "stars": 2,
+        "price": 71,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Medina Backpackers Inn",
+        "city": "Medina",
+        "area": "City Center",
+        "stars": 3,
+        "price": 79,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "name": "Riyadh Business Suites",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 4,
+        "price": 170,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      },
+      {
+        "name": "Jeddah Executive Hotel",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 4,
+        "price": 190,
+        "amenities": [
+          "Business center",
+          "Airport shuttle"
+        ]
+      },
+      {
+        "name": "Mecca Corporate Inn",
+        "city": "Mecca",
+        "area": "City Center",
+        "stars": 4,
+        "price": 210,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      }
+    ],
+    "family": [
+      {
+        "name": "Riyadh Family Resort",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 3,
+        "price": 140,
+        "amenities": [
+          "Family rooms",
+          "Free breakfast"
+        ]
+      },
+      {
+        "name": "Jeddah Family Suites",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 4,
+        "price": 155,
+        "amenities": [
+          "Kids' pool",
+          "Connecting rooms"
+        ]
+      }
+    ],
+    "airportHotels": [
+      {
+        "name": "Riyadh Airport Gateway Hotel",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 3,
+        "price": 90,
+        "amenities": [
+          "Free shuttle",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Jeddah Transit Inn",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Soundproof rooms",
+          "Free shuttle"
+        ]
+      }
+    ],
+    "beachResorts": [
+      {
+        "name": "Riyadh Beachfront Resort",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 5,
+        "price": 260,
+        "amenities": [
+          "Beachfront",
+          "Pool"
+        ]
+      },
+      {
+        "name": "Jeddah Coastal Resort",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 5,
+        "price": 290,
+        "amenities": [
+          "Private beach",
+          "Spa"
+        ]
+      }
+    ],
+    "romantic": [
+      {
+        "name": "Riyadh Boutique Hotel",
+        "city": "Riyadh",
+        "area": "City Center",
+        "stars": 4,
+        "price": 220,
+        "amenities": [
+          "Rooftop bar",
+          "Fireplace suites"
+        ]
+      },
+      {
+        "name": "Jeddah Romantic Suites",
+        "city": "Jeddah",
+        "area": "City Center",
+        "stars": 5,
+        "price": 245,
+        "amenities": [
+          "Couples spa",
+          "Wine bar"
+        ]
+      }
+    ]
+  }
+}

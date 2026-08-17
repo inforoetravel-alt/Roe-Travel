@@ -1,0 +1,314 @@
+{
+  "country": "Finland",
+  "slug": "finland",
+  "intro": "Finland covers Helsinki, Rovaniemi, Tampere and more — a range of business hubs, historic centers, and leisure destinations. This guide organizes hotels by budget and by purpose across the country's most-visited cities.",
+  "heroImageAlt": "Helsinki skyline at dusk",
+  "featuredCities": [
+    "Helsinki",
+    "Rovaniemi",
+    "Tampere",
+    "Turku"
+  ],
+  "topAttractions": [
+    "Senate Square & Design District, Helsinki",
+    "Arctic Circle & Santa Claus Village, Rovaniemi",
+    "Suomenlinna Sea Fortress, Helsinki",
+    "Tampere Cathedral, Tampere",
+    "Turku Castle, Turku"
+  ],
+  "travelTips": [
+    "Book hotels in Helsinki well ahead during major local events — rates rise quickly.",
+    "Most hotel rates shown include tax, though a small city or tourist tax may apply at checkout in some destinations.",
+    "Public transit covers most needs in Helsinki; a car is more useful for reaching smaller towns or countryside.",
+    "Shoulder-season travel (spring and autumn) typically offers the best balance of weather and hotel rates."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a car in Finland?",
+      "a": "Helsinki and other major cities are generally well served by public transit. A car is more useful for exploring outside the main cities."
+    },
+    {
+      "q": "What's the best time to visit Finland?",
+      "a": "Spring and autumn typically offer the mildest weather and better hotel availability than peak summer or winter."
+    },
+    {
+      "q": "Are hotel cancellation policies flexible?",
+      "a": "Most standard and luxury hotels offer free cancellation up to 24–48 hours before check-in; budget rates are cheaper but often non-refundable."
+    }
+  ],
+  "categories": {
+    "luxury": [
+      {
+        "name": "Helsinki Grand Palace",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 5,
+        "price": 280,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      },
+      {
+        "name": "Rovaniemi Royal Suites",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 315,
+        "amenities": [
+          "Pool",
+          "Rooftop bar",
+          "Valet parking"
+        ]
+      },
+      {
+        "name": "Tampere Skyline Hotel",
+        "city": "Tampere",
+        "area": "City Center",
+        "stars": 5,
+        "price": 350,
+        "amenities": [
+          "City view",
+          "Fitness center",
+          "Room service"
+        ]
+      },
+      {
+        "name": "The Turku Regency",
+        "city": "Turku",
+        "area": "City Center",
+        "stars": 5,
+        "price": 385,
+        "amenities": [
+          "Spa",
+          "Fine dining",
+          "Concierge"
+        ]
+      }
+    ],
+    "standard": [
+      {
+        "name": "Helsinki Comfort Hotel",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Rovaniemi City Inn",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 112,
+        "amenities": [
+          "Business center",
+          "Gym"
+        ]
+      },
+      {
+        "name": "Tampere Central Suites",
+        "city": "Tampere",
+        "area": "City Center",
+        "stars": 3,
+        "price": 124,
+        "amenities": [
+          "Central location",
+          "Free Wi-Fi"
+        ]
+      },
+      {
+        "name": "Turku Garden Hotel",
+        "city": "Turku",
+        "area": "City Center",
+        "stars": 4,
+        "price": 136,
+        "amenities": [
+          "Free breakfast",
+          "Free Wi-Fi"
+        ]
+      }
+    ],
+    "budget": [
+      {
+        "name": "Helsinki Traveler Inn",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 2,
+        "price": 55,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Rovaniemi Budget Hotel",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 63,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      },
+      {
+        "name": "Tampere Value Lodge",
+        "city": "Tampere",
+        "area": "City Center",
+        "stars": 2,
+        "price": 71,
+        "amenities": [
+          "Free Wi-Fi",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Turku Backpackers Inn",
+        "city": "Turku",
+        "area": "City Center",
+        "stars": 3,
+        "price": 79,
+        "amenities": [
+          "Free parking",
+          "Near transit"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "name": "Helsinki Business Suites",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 4,
+        "price": 170,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      },
+      {
+        "name": "Rovaniemi Executive Hotel",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 190,
+        "amenities": [
+          "Business center",
+          "Airport shuttle"
+        ]
+      },
+      {
+        "name": "Tampere Corporate Inn",
+        "city": "Tampere",
+        "area": "City Center",
+        "stars": 4,
+        "price": 210,
+        "amenities": [
+          "Meeting rooms",
+          "Fast Wi-Fi"
+        ]
+      }
+    ],
+    "family": [
+      {
+        "name": "Helsinki Family Resort",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 3,
+        "price": 140,
+        "amenities": [
+          "Family rooms",
+          "Free breakfast"
+        ]
+      },
+      {
+        "name": "Rovaniemi Family Suites",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 4,
+        "price": 155,
+        "amenities": [
+          "Kids' pool",
+          "Connecting rooms"
+        ]
+      }
+    ],
+    "airportHotels": [
+      {
+        "name": "Helsinki Airport Gateway Hotel",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 3,
+        "price": 90,
+        "amenities": [
+          "Free shuttle",
+          "24-hour desk"
+        ]
+      },
+      {
+        "name": "Rovaniemi Transit Inn",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 3,
+        "price": 100,
+        "amenities": [
+          "Soundproof rooms",
+          "Free shuttle"
+        ]
+      }
+    ],
+    "beachResorts": [
+      {
+        "name": "Helsinki Beachfront Resort",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 5,
+        "price": 260,
+        "amenities": [
+          "Beachfront",
+          "Pool"
+        ]
+      },
+      {
+        "name": "Rovaniemi Coastal Resort",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 290,
+        "amenities": [
+          "Private beach",
+          "Spa"
+        ]
+      }
+    ],
+    "romantic": [
+      {
+        "name": "Helsinki Boutique Hotel",
+        "city": "Helsinki",
+        "area": "City Center",
+        "stars": 4,
+        "price": 220,
+        "amenities": [
+          "Rooftop bar",
+          "Fireplace suites"
+        ]
+      },
+      {
+        "name": "Rovaniemi Romantic Suites",
+        "city": "Rovaniemi",
+        "area": "City Center",
+        "stars": 5,
+        "price": 245,
+        "amenities": [
+          "Couples spa",
+          "Wine bar"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Roe Travel</title>
+<meta name="description" content="Get help with a Roe Travel booking. Contact real support at info.roetravel@gmail.com.">
+<link rel="canonical" href="https://roetravel.com/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Support — Roe Travel">
+<meta property="og:description" content="Get help with a Roe Travel booking. Contact real support at info.roetravel@gmail.com.">
+<meta property="og:url" content="https://roetravel.com/contact.html">
+<meta property="og:image" content="https://roetravel.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://roetravel.com/index.html"},{"@type":"ListItem","position":2,"name":"Support","item":"https://roetravel.com/contact.html"}]}
+</script>
+<script>
+(function() {
+  var t = localStorage.getItem("roe-theme");
+  if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="flights.html">Flights</a>
+      <a href="hotels.html">Hotels</a>
+      <a href="destinations.html">Top Hotels</a>
+      <a href="destinations-by-continent.html">Destinations</a>
+      <a href="travel-guides.html">Travel Guides</a>
+      <a href="contact.html" class="active">Support</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      <a href="contact.html" class="btn btn-ghost">Get help</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Support</p>
+      <h1>Talk to a real person</h1>
+      <p>Booking trouble, a question before you pay, or a change to an existing trip — every message reaches a person, not a queue.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:48px;">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <div class="contact-card" style="margin-bottom:24px;">
+            <h4 class="eyebrow" style="margin-bottom:18px;">Reach us directly</h4>
+            <div class="contact-method">
+              <span class="icon">✉</span>
+              <div>
+                <h4 style="margin-bottom:2px;">Email support</h4>
+                <p style="margin:0 0 4px; color:var(--slate); font-size:14px;">Best for bookings, changes, and refunds</p>
+                <a class="mail" href="mailto:info.roetravel@gmail.com">info.roetravel@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-method" style="margin-bottom:0;">
+              <span class="icon">⏱</span>
+              <div>
+                <h4 style="margin-bottom:2px;">Response time</h4>
+                <p style="margin:0; color:var(--slate); font-size:14px;">Most emails answered within a few hours, day or night.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h4 class="eyebrow" style="margin-bottom:14px;">Before you write in</h4>
+            <p style="font-size:14.5px; color:var(--slate); margin:0 0 10px;">Include your booking reference, the email used to book, and a short description of the issue — it helps us solve it in one reply instead of three.</p>
+            <p style="font-size:14.5px; color:var(--slate); margin:0;">For urgent same-day travel disruptions, put <strong style="color:var(--ink);">URGENT</strong> in the subject line.</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <h4 class="eyebrow" style="margin-bottom:18px;">Send a message</h4>
+          <form id="contact-form">
+            <div class="form-two">
+              <div class="form-row"><label for="cf-name">Full name</label><input id="cf-name" type="text" placeholder="Your name" required></div>
+              <div class="form-row"><label for="cf-email">Email</label><input id="cf-email" type="email" placeholder="you@example.com" required></div>
+            </div>
+            <div class="form-row">
+              <label for="cf-ref">Booking reference (optional)</label>
+              <input id="cf-ref" type="text" placeholder="e.g. RT-284910">
+            </div>
+            <div class="form-row">
+              <label for="cf-topic">Topic</label>
+              <select id="cf-topic">
+                <option>Existing flight booking</option>
+                <option>Existing hotel booking</option>
+                <option>Payment or refund</option>
+                <option>Before I book — a question</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" rows="5" placeholder="Tell us what's going on..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send to support</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="margin-top:24px;">
+    <div class="container" style="max-width:840px;">
+      <div class="section-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Common questions</h2>
+      </div>
+
+      <details class="faq-item" open>
+        <summary>Can I change or cancel my booking?</summary>
+        <p>Most fares and rooms show their change and cancellation terms before you pay. If you need to change a confirmed booking, email us with your reference and we'll walk you through the options and any fee.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Why did the price change between search and checkout?</summary>
+        <p>It shouldn't. Roe Travel shows the full price, including taxes and fees, at search. If you ever see a different total at checkout, tell support — that's exactly the kind of thing we fix.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What payment methods are accepted?</summary>
+        <p>Major debit and credit cards are accepted at checkout. Payment details are encrypted in transit and are never stored on our servers.</p>
+      </details>
+      <details class="faq-item">
+        <summary>My flight was changed or cancelled by the airline — what now?</summary>
+        <p>Email support with your booking reference as soon as you know. We'll help you rebook, get a refund, or find the next best option depending on the airline's policy.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do you cover destinations outside Europe?</summary>
+        <p>Yes — Roe Travel lists flights and hotels across 29 countries, from short regional hops to long-haul and multi-city trips.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+        <p style="margin-top:14px; font-size:14px; max-width:32ch;">Flights and hotels worldwide, compared honestly and booked simply.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="index.html">Home</a></li><li><a href="flights.html">Flights</a></li><li><a href="hotels.html">Hotels</a></li><li><a href="destinations.html">Top Hotels</a></li><li><a href="destinations-by-continent.html">Destinations</a></li><li><a href="travel-guides.html">Travel Guides</a></li></ul>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <ul><li><a href="contact.html">Contact us</a></li><li><a href="mailto:info.roetravel@gmail.com">info.roetravel@gmail.com</a></li><li><a href="contact.html#faq">FAQ</a></li></ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul><li><a href="#">About Roe Travel</a></li><li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Roe Travel. All rights reserved.</span>
+      <span>Prices shown in EUR unless stated otherwise.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

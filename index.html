@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roe Travel — Flights &amp; Hotels Worldwide</title>
+<meta name="description" content="Compare and book flights and hotels across every category, worldwide. Clear prices, real support, no surprises.">
+<link rel="canonical" href="https://roetravel.com/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Roe Travel — Flights & Hotels Worldwide">
+<meta property="og:description" content="Compare and book flights and hotels across every category, worldwide. Clear prices, real support, no surprises.">
+<meta property="og:url" content="https://roetravel.com/index.html">
+<meta property="og:image" content="https://roetravel.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Roe Travel — Flights & Hotels Worldwide">
+<meta name="twitter:description" content="Compare and book flights and hotels across every category, worldwide. Clear prices, real support, no surprises.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://roetravel.com/index.html"}
+  ]
+}
+</script>
+<script>
+(function() {
+  var t = localStorage.getItem("roe-theme");
+  if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html" class="active">Home</a>
+      <a href="flights.html">Flights</a>
+      <a href="hotels.html">Hotels</a>
+      <a href="destinations.html">Top Hotels</a>
+      <a href="destinations-by-continent.html">Destinations</a>
+      <a href="travel-guides.html">Travel Guides</a>
+      <a href="contact.html">Support</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      <a href="contact.html" class="btn btn-ghost">Get help</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero" style="padding-bottom:80px;">
+    <div class="container">
+      <p class="eyebrow">Flights & Hotels</p>
+      <h1>Travel worldwide, without the guesswork</h1>
+      <p>Compare flights and hotels across every category — budget to luxury — with clear pricing and real support if anything goes wrong.</p>
+      <div class="hero-stats">
+        <div><strong>29</strong><span>Countries covered</span></div>
+        <div><strong>150+</strong><span>Hotels listed</span></div>
+        <div><strong>24/7</strong><span>Real human support</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="search-widget">
+      <div class="search-tabs">
+        <button class="search-tab active" data-tab="flights">Flights</button>
+        <button class="search-tab" data-tab="hotels">Hotels</button>
+      </div>
+      <div class="search-panel active" data-tab="flights">
+        <form data-target="flights.html">
+          <div class="search-grid">
+            <div class="field"><label for="h-from">From</label><input id="h-from" type="text" value="Brussels"></div>
+            <div class="field"><label for="h-to">To</label><input id="h-to" type="text" placeholder="Destination"></div>
+            <div class="field"><label for="h-depart">Depart</label><input id="h-depart" type="date"></div>
+            <div class="field"><label for="h-return">Return</label><input id="h-return" type="date"></div>
+          </div>
+          <div class="search-submit-row"><span></span><button type="submit" class="btn btn-amber">Search flights</button></div>
+        </form>
+      </div>
+      <div class="search-panel" data-tab="hotels">
+        <form data-target="hotels.html">
+          <div class="search-grid">
+            <div class="field"><label for="ha-dest">Destination</label><input id="ha-dest" type="text" placeholder="City or country"></div>
+            <div class="field"><label for="ha-checkin">Check-in</label><input id="ha-checkin" type="date"></div>
+            <div class="field"><label for="ha-checkout">Check-out</label><input id="ha-checkout" type="date"></div>
+            <div class="field"><label for="ha-guests">Guests</label><select id="ha-guests"><option>2 guests</option><option>1 guest</option><option>4 guests</option></select></div>
+          </div>
+          <div class="search-submit-row"><span></span><button type="submit" class="btn btn-amber">Search hotels</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-cloud" style="margin-top:40px;">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Why Roe Travel</p>
+        <h2>Booking that respects your time and your money</h2>
+      </div>
+      <div class="grid-3">
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Clear pricing</h4><p class="from">The price you see at search is the price you pay — taxes and fees included, no surprise add-ons at checkout.</p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Every budget covered</h4><p class="from">From hostels to five-star resorts, filter by exactly the tier that fits your trip.</p></div></div>
+        <div class="dest-card"><div class="dest-body" style="padding-top:20px;"><h4>Real human support</h4><p class="from">Email a real person any time — no chatbot loop, no ticket queue that goes nowhere.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Explore</p>
+        <h2>Where would you like to go?</h2>
+      </div>
+      <div style="display:flex; gap:14px; flex-wrap:wrap;">
+        <a href="hotels.html" class="btn btn-primary">Browse all hotels</a>
+        <a href="destinations-by-continent.html" class="btn btn-outline">Explore by continent</a>
+        <a href="flights.html" class="btn btn-outline">Search flights</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand">Roe<span class="dot">•</span>Travel</a>
+        <p style="margin-top:14px; font-size:14px; max-width:32ch;">Flights and hotels worldwide, compared honestly and booked simply.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="index.html">Home</a></li><li><a href="flights.html">Flights</a></li><li><a href="hotels.html">Hotels</a></li><li><a href="destinations.html">Top Hotels</a></li><li><a href="destinations-by-continent.html">Destinations</a></li><li><a href="travel-guides.html">Travel Guides</a></li></ul>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <ul><li><a href="contact.html">Contact us</a></li><li><a href="mailto:info.roetravel@gmail.com">info.roetravel@gmail.com</a></li><li><a href="contact.html#faq">FAQ</a></li></ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul><li><a href="#">About Roe Travel</a></li><li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Roe Travel. All rights reserved.</span>
+      <span>Prices shown in EUR unless stated otherwise.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
