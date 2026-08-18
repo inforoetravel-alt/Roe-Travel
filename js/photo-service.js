@@ -25,38 +25,44 @@ const ROE_HOTELLOOK_CACHE_PREFIX = "roe-hotellook:";
 // hotel name from our placeholder JSON data, since Hotellook returns
 // whatever real hotel it has on file for that city (not necessarily the
 // same-named property in our own data).
-async function roeGetHotellookPhoto(cityQuery) {
+async function roeGetHotellookPhoto(cityQuery, hotelOffset, photoIndex) {
+  hotelOffset = hotelOffset || 0;
+  photoIndex = photoIndex || 1;
   const token = window.ROE_CONFIG && window.ROE_CONFIG.TRAVELPAYOUTS_TOKEN;
   if (!token) return null;
 
-  const cacheKey = ROE_HOTELLOOK_CACHE_PREFIX + cityQuery;
+  const cacheKey = ROE_HOTELLOOK_CACHE_PREFIX + cityQuery + ":" + hotelOffset + ":" + photoIndex;
   try {
     const cached = sessionStorage.getItem(cacheKey);
     if (cached) return JSON.parse(cached);
   } catch (err) { /* sessionStorage unavailable — skip caching */ }
 
   try {
-    const url = `https://engine.hotellook.com/api/v2/lookup.json?query=${encodeURIComponent(cityQuery)}&lang=en&lookFor=hotel&limit=1&token=${encodeURIComponent(token)}`;
+    // Request several real hotels for this city so different cards/fictional
+    // entries in the same city can map to different real properties,
+    // instead of every card in a city collapsing onto the same one hotel.
+    const url = `https://engine.hotellook.com/api/v2/lookup.json?query=${encodeURIComponent(cityQuery)}&lang=en&lookFor=hotel&limit=6&token=${encodeURIComponent(token)}`;
     const res = await fetch(url);
     if (!res.ok) return null;
     const data = await res.json();
 
     // Defensive parsing — try the shapes Hotellook's lookup.json is known
     // to return; bail out to null (never throw) if none match.
-    let hotel = null;
+    let hotels = null;
     if (data && data.results && Array.isArray(data.results.hotels) && data.results.hotels.length) {
-      hotel = data.results.hotels[0];
+      hotels = data.results.hotels;
     } else if (Array.isArray(data) && data.length) {
-      hotel = data[0];
+      hotels = data;
     }
-    if (!hotel) return null;
+    if (!hotels || !hotels.length) return null;
 
+    const hotel = hotels[hotelOffset % hotels.length];
     const hotelId = hotel.id || hotel.hotelId;
     const hotelName = hotel.label || hotel.hotelName || hotel.name;
     if (!hotelId) return null;
 
     const result = {
-      url: `https://photo.hotellook.com/image_v2/limit/h${hotelId}_1/800/520.auto`,
+      url: `https://photo.hotellook.com/image_v2/limit/h${hotelId}_${photoIndex}/800/520.auto`,
       hotelName: hotelName || null,
       source: "hotellook"
     };
@@ -104,9 +110,9 @@ async function roeGetUnsplashPhoto(query) {
 
 // Tries Hotellook first (real hotel, matched by city), then falls back to
 // Unsplash (stock photo, matched by the full query text).
-async function roeGetPhoto(query, cityForHotellook) {
+async function roeGetPhoto(query, cityForHotellook, hotelOffset, photoIndex) {
   if (cityForHotellook) {
-    const real = await roeGetHotellookPhoto(cityForHotellook);
+    const real = await roeGetHotellookPhoto(cityForHotellook, hotelOffset, photoIndex);
     if (real) return real;
   }
   return roeGetUnsplashPhoto(query);
@@ -122,16 +128,16 @@ async function roeHydratePhotos(root = document) {
   if (!hasAnyKey) return; // no key configured — leave placeholders as-is
 
   const els = Array.from(root.querySelectorAll("[data-photo-query]"));
-  const uniqueKeys = [...new Set(els.map(el => `${el.dataset.photoQuery}::${el.dataset.photoCity || ""}`))];
+  const uniqueKeys = [...new Set(els.map(el => `${el.dataset.photoQuery}::${el.dataset.photoCity || ""}::${el.dataset.photoOffset || "0"}::${el.dataset.photoIndex || "1"}`))];
 
   const results = {};
   await Promise.all(uniqueKeys.map(async k => {
-    const [query, city] = k.split("::");
-    results[k] = await roeGetPhoto(query, city || null);
+    const [query, city, offset, idx] = k.split("::");
+    results[k] = await roeGetPhoto(query, city || null, parseInt(offset, 10) || 0, parseInt(idx, 10) || 1);
   }));
 
   els.forEach(el => {
-    const k = `${el.dataset.photoQuery}::${el.dataset.photoCity || ""}`;
+    const k = `${el.dataset.photoQuery}::${el.dataset.photoCity || ""}::${el.dataset.photoOffset || "0"}::${el.dataset.photoIndex || "1"}`;
     const photo = results[k];
     if (!photo) return; // fetch failed or no result — gradient placeholder stays
     el.style.backgroundImage = `url(${photo.url})`;
