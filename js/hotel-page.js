@@ -66,22 +66,31 @@ async function loadHotelPage() {
   const categoryLabel = CATEGORY_LABELS[category] || category;
 
   // Gallery photos (real hotel photos require a licensed affiliate feed —
-  // see README.md — these are Hotellook real-hotel or Unsplash stock
-  // photos matched by city/theme)
+  // see README.md — these try Hotellook first for real photos of an
+  // actual hotel in this city, with a different photo index per thumbnail
+  // so the gallery shows different angles of the SAME real hotel rather
+  // than 5 unrelated images; Unsplash queries below are also
+  // city-specific so the fallback varies by destination too, not just
+  // generic terms like "hotel room" that would look identical everywhere)
   const galleryQueries = [
     `${hotel.city} hotel exterior`,
-    "hotel room interior",
+    `${hotel.city} hotel room`,
+    `${hotel.city} hotel lobby`,
     `${hotel.city} skyline`,
-    "hotel lobby",
-    "hotel bathroom"
+    `${hotel.city} hotel bathroom`
   ];
   const galleryEl = document.getElementById("hotel-gallery");
   if (galleryEl) {
     const mainEl = galleryEl.querySelector(".gallery-main");
     mainEl.dataset.photoQuery = galleryQueries[0];
     mainEl.dataset.photoCity = hotel.city;
+    mainEl.dataset.photoOffset = String(index);
+    mainEl.dataset.photoIndex = "1";
     galleryEl.querySelectorAll(".gallery-thumbs div").forEach((el, i) => {
       el.dataset.photoQuery = galleryQueries[i + 1] || galleryQueries[0];
+      el.dataset.photoCity = hotel.city;
+      el.dataset.photoOffset = String(index); // same real hotel as the main photo
+      el.dataset.photoIndex = String(i + 2); // different angle: photos 2,3,4,5
     });
   }
 
@@ -197,7 +206,7 @@ async function loadHotelPage() {
     .slice(0, 3);
   document.getElementById("related-hotels").innerHTML = related.map(({ h, i }) => `
     <a class="dest-card" href="hotel.html?country=${country}&category=${category}&index=${i}" style="text-decoration:none; color:inherit;">
-      <div class="dest-img" data-photo-query="${h.city} hotel" data-photo-city="${h.city}"><span class="badge">${"★".repeat(h.stars)}${"☆".repeat(5 - h.stars)}</span></div>
+      <div class="dest-img" data-photo-query="${h.city} hotel" data-photo-city="${h.city}" data-photo-offset="${i}"><span class="badge">${"★".repeat(h.stars)}${"☆".repeat(5 - h.stars)}</span></div>
       <div class="dest-body">
         <h4>${h.name}</h4>
         <p class="from">${h.area}, ${h.city}</p>
