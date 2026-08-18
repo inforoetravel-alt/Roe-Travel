@@ -121,7 +121,7 @@ function renderCategoryPanel(key, hotels, visible, slug) {
   const cards = (hotels || [])
     .map((h, i) => `
       <a class="dest-card" href="hotel.html?country=${slug}&category=${key}&index=${i}" style="text-decoration:none; color:inherit;">
-        <div class="dest-img" data-photo-query="${h.city} hotel" data-photo-city="${h.city}" data-photo-offset="${i}"><span class="badge">${"★".repeat(h.stars)}${"☆".repeat(5 - h.stars)}</span></div>
+        <div class="dest-img" data-photo-query="${h.city} hotel" data-photo-city="${h.city}"><span class="badge">${"★".repeat(h.stars)}${"☆".repeat(5 - h.stars)}</span></div>
         <div class="dest-body">
           <h4>${h.name}</h4>
           <p class="from">${h.area}, ${h.city}${h.amenities ? " · " + h.amenities.join(", ") : ""}</p>
